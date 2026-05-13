@@ -49,8 +49,8 @@ Esta secção detalha os requisitos da **Sprint 1 (30/04 a 14/05)** e como o nos
 
 ### Objetivos Atingidos
 * **Escolha de Dataset e Problema de Negócio:** Selecionámos o dataset do ecossistema Steam (*Steam Dataset for Recommendation & Prediction*) para resolver um problema real de precificação: *"Qual o preço justo de um jogo baseando-se nas suas características no lançamento?"*.
+ 
 * **Análise Exploratória de Dados (EDA) Completa:** O projeto contém a limpeza dos dados, tratamento de valores nulos (*Missing Values*), e a validação estatística e visual de 4 hipóteses de negócio detalhadas.
-* **Identificação de Desafios:** Mapeámos e resolvemos problemas do dataset, como o enviesamento causado por jogos gratuitos (*Outliers* de USD 0.00) e a prevenção de *Data Leakage* (remoção da variável de pico de jogadores).
 
 ---
 
