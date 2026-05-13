@@ -21,24 +21,23 @@ No mercado de desenvolvimento de software, precificar um produto digital é um d
 
 ---
 
-## 📂 Base de Dados (Dataset)
+## Base de Dados (Dataset)
 * **Nome:** Steam Dataset for Recommendation & Prediction
 * **Fonte:** [Kaggle](https://www.kaggle.com/datasets/patelris/steam-top-1495-games-dataset)
 * **Variável Alvo (Target):** `price_usd` (Preço Base em Dólares)
 
 ---
 
-## 🏗️ Estrutura do Repositório
-O projeto será dividido em Sprints quinzenais
+## Estrutura do Repositório
+O projeto está dividido em Sprints quinzenais, seguindo a metodologia ágil e o ciclo de vida CRISP-DM. Os dados e notebooks de cada etapa ficam armazenados juntos em suas respectivas pastas.
 
 ```text
 📦 steam-price-prediction
- ┣ 📂 data                    # Diretório principal de dados
- ┃ ┣ 📂 sprint_01             # Dados brutos e tratados da Sprint 1
- ┃ ┃ ┗ 📜 steam_top_games_2026.csv
- ┃ ┣ 📂 sprint_02             # Dados para feature engineering e modelagem
+ ┣ 📂 data
+ ┃ ┣ 📂 sprint_01
+ ┃ ┃ ┣ 📜 steam_top_games_2026.csv
+ ┃ ┃ ┗ 📜 Projeto_Grupo_05_Sprint_01.ipynb
+ ┃ ┣ 📂 sprint_02
  ┃ ┣ 📂 sprint_03
  ┃ ┗ 📂 sprint_04
- ┣ 📂 notebooks               # Códigos fonte em Jupyter Notebook
- ┃ ┗ 📜 Projeto_Grupo_05_Sprint_01.ipynb
- ┗ 📜 README.md               # Documentação principal
+ ┗ 📜 README.md
