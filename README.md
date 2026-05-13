@@ -41,3 +41,29 @@ O projeto está dividido em Sprints quinzenais, seguindo a metodologia ágil e o
  ┃ ┣ 📂 sprint_03
  ┃ ┗ 📂 sprint_04
  ┗ 📜 README.md
+```
+
+## Instruções e Validação da Sprint 1
+
+Esta secção detalha os requisitos da **Sprint 1 (30/04 a 14/05)** e como o nosso projeto atende a cada um deles, garantindo a qualidade técnica e a reprodutibilidade da entrega.
+
+### Objetivos Atingidos
+* **Escolha de Dataset e Problema de Negócio:** Selecionámos o dataset do ecossistema Steam (*Steam Dataset for Recommendation & Prediction*) para resolver um problema real de precificação: *"Qual o preço justo de um jogo baseando-se nas suas características no lançamento?"*.
+* **Análise Exploratória de Dados (EDA) Completa:** O projeto contém a limpeza dos dados, tratamento de valores nulos (*Missing Values*), e a validação estatística e visual de 4 hipóteses de negócio detalhadas.
+* **Identificação de Desafios:** Mapeámos e resolvemos problemas do dataset, como o enviesamento causado por jogos gratuitos (*Outliers* de USD 0.00) e a prevenção de *Data Leakage* (remoção da variável de pico de jogadores).
+
+---
+
+### Como Executar o Projeto (Reprodutibilidade)
+
+Este Jupyter Notebook foi desenvolvido e testado para ser executado nativamente no **Google Colab**. 
+
+Para garantir a **reprodutibilidade técnica** exigida, os dados são importados automaticamente do nosso repositório oficial no GitHub. Não é necessário realizar o *upload* manual de nenhum ficheiro CSV. O código utiliza o seguinte *endpoint* de dados:
+
+**Dataset Link (Raw):** `https://raw.githubusercontent.com/JoaoDysarz/steam-price-prediction/main/data/Sprint_01/steam_top_games_2026.csv`
+
+**Passo a passo para execução:**
+1. Abra este ficheiro `.ipynb` no ambiente Google Colab.
+2. Certifique-se de que a variável `url_github` no Passo 1 (Carregamento de Dados) aponta para o *link* acima.
+3. No menu superior do Colab, clique em **Ambiente de execução** > **Executar tudo** (ou utilize o atalho `Ctrl + F9`).
+4. O algoritmo fará o *download* automático da base de dados e irá gerar todas as estatísticas, relatórios e painéis gráficos sequencialmente sem erros.
